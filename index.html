@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Calculator JS</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+</head> 
+<body>
+	<div class="container">
+		<div class="row">
+			<div id="calculator">
+				<div id="result">
+					<div id="output">
+						<input type="text" class="output" id="test" value="0" />
+					</div>
+				</div>
+				<div id="keyboard">
+					<button id="all-clear" class="operator light-gray clear" value="all-clear" onclick="buttonClick(this)">AC</button>
+					<button id="plus-or-minus" class="operator light-gray" value="opposite" onclick="buttonClick(this)">+/-</button>
+					<button id="modulus" class="operator light-gray" value="percent" onclick="buttonClick(this)">
+						<i class="fas fa-percentage"></i>
+					</button>
+					<button id="division" class="operator orange" value="divide" onclick="buttonClick(this)">
+						<i class="fas fa-divide"></i>
+					</button>
+					<button id="7" class="number dark-gray" value="7" onclick="buttonClick(this)">7</button>
+					<button id="8" class="number dark-gray" value="8" onclick="buttonClick(this)">8</button>
+					<button id="9" class="number dark-gray" value="9" onclick="buttonClick(this)">9</button>
+					<button id="multiplication" class="operator orange" value="multiply" onclick="buttonClick(this)">
+						<i class="fas fa-times"></i>
+					</button>
+					<button id="4" class="number dark-gray" value="4" onclick="buttonClick(this)">4</button>
+					<button id="5" class="number dark-gray" value="5" onclick="buttonClick(this)">5</button>
+					<button id="6" class="number dark-gray" value="6" onclick="buttonClick(this)">6</button>
+					<button id="subtract" class="operator orange" value="subtract" onclick="buttonClick(this)">
+						<i class="fas fa-minus"></i>
+					</button>
+					<button id="1" class="number dark-gray" value="1" onclick="buttonClick(this)">1</button>
+					<button id="2" class="number dark-gray" value="2" onclick="buttonClick(this)">2</button>
+					<button id="3" class="number dark-gray" value="3" onclick="buttonClick(this)">3</button>
+					<button id="+" class="operator orange" value="add" onclick="buttonClick(this)">
+						<i class="fas fa-plus" aria-hidden="true"></i>
+					</button>
+					<button id="0" class="number double dark-gray" value="0" onclick="buttonClick(this)">0</button>
+					<button id="." class="empty dark-gray" value="period" onclick="buttonClick(this)">.</button>
+					<button id="=" class="operator orange" value="equals" onclick="buttonClick(this)">
+						<i class="fas fa-equals"></i>
+					</button>
+				</div>
+			</div>
+		</div>	
+	</div>
+<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
